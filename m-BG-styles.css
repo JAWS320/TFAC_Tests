@@ -1,0 +1,838 @@
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+    min-width: 960px;
+    /width: 960px;
+    background-image: url('http://brand.turnaroundusa.org/Images/Charcoal_Background.png');
+    background-repeat: round;
+    background-position: center;
+}
+
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+    display: inline;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.push_1,
+.pull_1,
+.push_2,
+.pull_2,
+.push_3,
+.pull_3,
+.push_4,
+.pull_4,
+.push_5,
+.pull_5,
+.push_6,
+.pull_6,
+.push_7,
+.pull_7,
+.push_8,
+.pull_8,
+.push_9,
+.pull_9,
+.push_10,
+.pull_10,
+.push_11,
+.pull_11 {
+    position: relative;
+}
+
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+    margin-left: 0;
+}
+
+.omega {
+    margin-right: 0;
+}
+
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 .grid_1 {
+    width: 60px;
+    /width: 60px;
+}
+
+.container_12 .grid_2 {
+    width: 140px;
+}
+
+.container_12 .grid_3 {
+    width: 220px;
+    /width: 220px;
+}
+
+.container_12 .grid_4 {
+    width: 300px;
+}
+
+.container_12 .grid_5 {
+    width: 380px;
+}
+
+.container_12 .grid_6 {
+    width: 460px;
+}
+
+.container_12 .grid_7 {
+    width: 540px;
+}
+
+.container_12 .grid_8 {
+    width: 620px;
+    /width: 620px;
+}
+
+.container_12 .grid_9 {
+    width: 700px;
+}
+
+.container_12 .grid_10 {
+    width: 780px;
+}
+
+.container_12 .grid_11 {
+    width: 860px;
+}
+
+.container_12 .grid_12 {
+    width: 940px;
+    /width: 940px;
+}
+
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 .prefix_1 {
+    padding-left: 80px;
+}
+
+.container_12 .prefix_2 {
+    padding-left: 160px;
+}
+
+.container_12 .prefix_3 {
+    padding-left: 240px;
+}
+
+.container_12 .prefix_4 {
+    padding-left: 320px;
+}
+
+.container_12 .prefix_5 {
+    padding-left: 400px;
+}
+
+.container_12 .prefix_6 {
+    padding-left: 480px;
+}
+
+.container_12 .prefix_7 {
+    padding-left: 560px;
+}
+
+.container_12 .prefix_8 {
+    padding-left: 640px;
+}
+
+.container_12 .prefix_9 {
+    padding-left: 720px;
+}
+
+.container_12 .prefix_10 {
+    padding-left: 800px;
+}
+
+.container_12 .prefix_11 {
+    padding-left: 880px;
+}
+
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 .suffix_1 {
+    padding-right: 80px;
+}
+
+.container_12 .suffix_2 {
+    padding-right: 160px;
+}
+
+.container_12 .suffix_3 {
+    padding-right: 240px;
+}
+
+.container_12 .suffix_4 {
+    padding-right: 320px;
+}
+
+.container_12 .suffix_5 {
+    padding-right: 400px;
+}
+
+.container_12 .suffix_6 {
+    padding-right: 480px;
+}
+
+.container_12 .suffix_7 {
+    padding-right: 560px;
+}
+
+.container_12 .suffix_8 {
+    padding-right: 640px;
+}
+
+.container_12 .suffix_9 {
+    padding-right: 720px;
+}
+
+.container_12 .suffix_10 {
+    padding-right: 800px;
+}
+
+.container_12 .suffix_11 {
+    padding-right: 880px;
+}
+
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 .push_1 {
+    left: 80px;
+}
+
+.container_12 .push_2 {
+    left: 160px;
+}
+
+.container_12 .push_3 {
+    left: 240px;
+}
+
+.container_12 .push_4 {
+    left: 320px;
+}
+
+.container_12 .push_5 {
+    left: 400px;
+}
+
+.container_12 .push_6 {
+    left: 480px;
+}
+
+.container_12 .push_7 {
+    left: 560px;
+}
+
+.container_12 .push_8 {
+    left: 640px;
+}
+
+.container_12 .push_9 {
+    left: 720px;
+}
+
+.container_12 .push_10 {
+    left: 800px;
+}
+
+.container_12 .push_11 {
+    left: 880px;
+}
+
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container_12 .pull_1 {
+    left: -80px;
+}
+
+.container_12 .pull_2 {
+    left: -160px;
+}
+
+.container_12 .pull_3 {
+    left: -240px;
+}
+
+.container_12 .pull_4 {
+    left: -320px;
+}
+
+.container_12 .pull_5 {
+    left: -400px;
+}
+
+.container_12 .pull_6 {
+    left: -480px;
+}
+
+.container_12 .pull_7 {
+    left: -560px;
+}
+
+.container_12 .pull_8 {
+    left: -640px;
+}
+
+.container_12 .pull_9 {
+    left: -720px;
+}
+
+.container_12 .pull_10 {
+    left: -800px;
+}
+
+.container_12 .pull_11 {
+    left: -880px;
+}
+
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after,
+.container_12:before,
+.container_12:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after,
+.container_12:after {
+    clear: both;
+}
+
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix,
+.container_12 {
+    zoom: 1;
+}
+
+
+/*JAWS STYLES*/
+
+.bgwrapper {
+    font-family: 'Lato', sans-serif;
+    font-size: 11pt;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 25px;
+    width: 960px;
+    border: 1px solid #333F48;
+    background-color: #FFFFFF;
+}
+
+
+/*BRAND GUIDELINES Header*/
+
+.bghdr {
+    height: 100px;
+    color: #ffffff;
+    background-color: #333F48;
+    border-right: 1px solid #333f48;
+}
+
+.bgnewlogo {
+    vertical-align: middle;
+    height: 100px;
+    background-color: #333F48;
+}
+
+
+/*Top Navigation*/
+
+.bgtopnav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bgtopnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.25;
+    display: block;
+    zoom: 1;
+}
+
+.bgtopnav ul:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.bgtopnav ul li {
+    display: inline-block;
+}
+
+.bgtopnav ul li a {
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+}
+
+.bgtopnav ul li a:hover {
+    color: #C4D600;
+}
+
+@media screen and (max-width: 768px) {
+    .bgtopnav ul li {
+        float: none;
+        display: block;
+    }
+    .bgtopnav ul li a {
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-bottom: 1px solid #fb998c;
+    }
+    .bgtopnav ul li.last > a,
+    .bgtopnav ul li:last-child > a {
+        border: 0;
+    }
+    .bgtopnav ul li a:after {
+        display: none;
+    }
+    .bgtopnav ul li a:before {
+        display: none;
+    }
+}
+
+
+/*END TOP NAV*/
+
+
+/*PAGE HDR*/
+
+.bgmainpghdr {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Museo', sans-serif;
+    margin-top: 25px;
+    height: 80px;
+}
+
+.bgpghdr {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Museo', sans-serif;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.bgpghdr img {
+    width: 50%;
+    vertical-align: middle;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.bghmain {
+    font-family: 'Museo', sans-serif;
+    font-weight: 700;
+    font-size: 22pt;
+    color: #F4364C;
+    line-height: 60pt;
+    text-align: left;
+}
+
+.bgh1 p {
+    font-size: 20pt;
+    color: #F4364C;
+    line-height: 30pt;
+    font-variant-caps: small-caps;
+    text-indent: 25px;
+    margin-top: 20px;
+}
+
+.bgh2,
+.bgh2 a {
+    font-size: 14pt;
+    color: #C4D600;
+    text-indent: 25px;
+}
+
+.bgh1 p,
+.bgh2 p,
+.bgh2 a {
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Museo', 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+.bgh2 a:hover {
+    color: #C4D600;
+}
+
+
+/*END PAGEHDR*/
+
+
+/*LINKS*/
+
+body a:link {
+    text-decoration: none;
+    color: #00AEC7;
+}
+
+body a:visited {
+    text-decoration: none;
+    color: #00AEC7;
+}
+
+body a:hover {
+    color: #C4D600;
+}
+
+
+/*DOWNLOAD LINK*/
+
+.bgDLlnk p,
+.bgDLlnk a {
+    color: #00AEC7;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60pt;
+}
+
+.foottxt {
+    text-align: center;
+}
+
+
+/*BACK LINK*/
+
+.bklnk a:link,
+a:visited {
+    text-decoration: none;
+    color: #00AEC7;
+    font-size: 10pt;
+}
+
+
+/*MAIN TEXT AREA*/
+
+.bgtxtwrap {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Lato', sans-serif;
+    padding-top: 10px;
+}
+
+.bgtxtarea {
+    left: 200px;
+}
+
+.bgtxtarea2 {
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.bgtxtarea p,
+.bgtxtarea2 p {
+    font-size: 11pt;
+    color: #333F48;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    text-align-last: left;
+}
+
+.bgtxtcent {
+    font-size: 10pt;
+    color: #333F48;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    -moz-text-align-last: center;
+    /* Code for Firefox */
+    text-align-last: center;
+}
+
+.bgTerm,
+.bgTerm a {
+    font-weight: bolder;
+    font-size: 14pt;
+    color: #F4364C;
+}
+
+.bgTerm a:hover {
+    color: #F4364C;
+}
+
+.bgsubTerm,
+.bgsubTerm p,
+.bgsubTerm a {
+    color: #00AEC7;
+    font-size: 12pt;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.bgdefs {
+    font-size: 12pt;
+    line-height: 18pt;
+    color: #333f48;
+    text-align: left;
+    margin-bottom: 25pt;
+}
+
+.bgtxtarea ul {
+    color: #00AEC7;
+}
+
+p+ul,
+P+ol {
+    margin-top: -2em;
+}
+
+.bglist li {
+    margin-top: -1em;
+}
+
+.bgdefs li {
+    font-size: 12pt;
+    color: #333f48;
+    text-align: left;
+    line-height: 20pt;
+    margin: 0 0 3px 0;
+}
+
+.bgFAQ ul{
+    color: #333f48;
+}
+
+.bgdefquo {
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.bgtxtarea .bgdefquo {
+    color: #00AEC7;
+    font-size: 12pt;
+    padding: 10pt 0pt;
+}
+
+
+/*END MAIN TXT AREA*/
+
+
+/*SIDEBAR NAVIGATION*/
+
+.bgsideNavwrap {
+    line-height: 25px;
+    text-decoration: none;
+    align-content: center;
+}
+
+.bgsideNav a {
+    color: #00AEC7;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+}
+
+.bgsideNav ul li {
+    margin-left: 2em;
+    text-indent: -2em;
+}
+
+ul.bgsideNav li img {
+    /*padding-top: 100px;*/
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.deIMG1 {
+    text-align: center;
+    vertical-align: top;
+    margin-left: 0px;
+    padding-top: 0px;
+}
+
+.deIMG1 img {
+    width: 125px;
+}
+
+.noindent {
+    margin-top: 0;
+    margin-left: 2px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+
+/*END SIDEBAR*/
+
+
+/* INDEX IMAGE MAP*/
+
+.bgsectionmap {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.bgsectionmap img {
+    height: 200px;
+}
+
+.bgsectionmap p {
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.bgmaincap {
+    font-weight: 700;
+    font-size: 14pt;
+    text-align: center;
+    line-height: 20pt;
+    color: #F4364C;
+}
+
+.bgmaincap:hover {
+    color: #c4d600;
+}
+
+.bgsubcap {
+    text-align: center;
+    font-size: 12pt;
+    line-height: 20pt;
+}
+
+
+/*END INDEX MAP*/
+
+
+/*SINGLE COLORS*/
+
+.sWatermelon {
+    color: #F4364C;
+}
+
+.sChartreuse {
+    color: #C4D600;
+}
+
+.sBlue {
+    color: #00AEC7;
+}
+
+.sCharcoal {
+    color: #333F48;
+}
+/*27JUL2016 addition*/
+.normp{
+    font-size: 12pt;
+    line-height: 18pt;
+    color: #333f48;
+    text-align: left;
+    margin-bottom: 10pt;}
